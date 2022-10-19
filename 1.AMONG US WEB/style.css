@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.nav{
+	height: 100vh;
+	width: 100%;
+	background-image:url(bac.jpg); 
+	background-size: cover;
+	background-position: center;
+}
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 25px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 120px;
+	cursor: pointer;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px;
+	font-weight: bolder;
+	position: relative;
+}
+.navbar ul li a{
+text-decoration: none;
+color: black;
+background:white;
+text-transform: uppercase;
+padding: 8px 10px;
+border-radius: 4px;
+
+}
+.navbar ul li a:hover{
+	height: 100%;
+	width: 100%;
+	background: aliceblue;
+}
+
+.content{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+.dd{
+
+	width: 20%;
+	height:10%px;
+}
+h1{
+	font-size: 30px;
+	font-weight: 600px;
+}
+p{
+	font-weight:bolder	;
+}
+.fa-solid{
+	font-size: 20px;
+}
+button{
+	margin-top: 20px;
+	padding: 10px 40px;
+	outline: none;
+	background: mediumpurple;
+	border: none;
+	color: white;
+	font-size: 20px;
+	transition: 0.9s ease;
+}
+button:hover{
+	background: aliceblue;
+	color: mediumaquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
